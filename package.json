@@ -1,6 +1,6 @@
 {
-  "name": "dt162g-moment3",
-  "version": "0.0.0",
+  "name": "fambask-server",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www"

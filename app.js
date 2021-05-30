@@ -12,7 +12,7 @@ var app = express();
 const dotenv = require('dotenv');
 dotenv.config();
 
-const whitelist = ['http://localhost:8080', 'http://linush.com', 'https://linush.com', 'https://fambask.herokuapp.com', 'http://fambask.herokuapp.com'] // The following is taken from https://flaviocopes.com/express-cors/
+const whitelist = ['http://localhost:8080', 'https://fambask.linush.com'] // The following is taken from https://flaviocopes.com/express-cors/
 const corsSettings = {
   credentials: true,
   origin: function (origin, callback) {
